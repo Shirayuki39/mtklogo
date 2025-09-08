@@ -154,6 +154,51 @@ profiles:
     # charge line - 608 bytes
     - { w: 304, h: 1}
 
+  # TECNO POVA 4 Pro
+  - name: lg8n
+    color_model: bgrabe
+    formats:
+    # Full screen
+      - { w: 1080, h: 2400 }
+    # Percent numbers
+      - { w: 42, h: 60 }
+    # Percent symbols
+      - { w: 48, h: 60 }
+    # Charge animation
+      - { w: 228, h: 36 }
+    # Charge line
+      - { w: 228, h: 2 }
+
+  # TECNO POVA 5
+  - name: lh7n
+    color_model: bgrabe
+    formats:
+    # Full screen
+      - { w: 1080, h: 2460 }
+    # Percent numbers
+      - { w: 42, h: 60 }
+    # Percent symbols
+      - { w: 48, h: 60 }
+    # Charge animation
+      - { w: 228, h: 36 }
+    # Charge line
+      - { w: 228, h: 2 }
+
+  # TECNO POVA 4
+  - name: lg7n
+    color_model: bgrabe
+    formats:
+    # Full screen
+      - { w: 720, h: 1640 }
+    # Percent numbers
+      - { w: 28, h: 40 }
+    # Percent symbols
+      - { w: 32, h: 40 }
+    # Charge animation
+      - { w: 152, h: 24 }
+    # Charge line
+      - { w: 152, h: 2 }
+
   # Your profile here!
   # - name: my_fantastic_phone
   #   color_model: rgbale
