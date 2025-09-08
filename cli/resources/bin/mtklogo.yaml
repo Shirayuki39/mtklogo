@@ -154,9 +154,13 @@ profiles:
     # charge line - 608 bytes
     - { w: 304, h: 1}
 
-  # TECNO POVA 4 Pro
-  - name: lg8n
+  # For devices with 1080x2400 screens
+  - name: generic_1080x2400_bgrabe
     color_model: bgrabe
+    alias:
+    - lg8n
+    - ck7n
+    - x678b
     formats:
     # Full screen
       - { w: 1080, h: 2400 }
@@ -169,9 +173,13 @@ profiles:
     # Charge line
       - { w: 228, h: 2 }
 
-  # TECNO POVA 5
-  - name: lh7n
+  # For devices with 1080x2460 screens
+  - name: generic_1080x2460_bgrabe
     color_model: bgrabe
+    alias:
+    - lh7n
+    - x6833b
+    - x6837
     formats:
     # Full screen
       - { w: 1080, h: 2460 }
@@ -184,9 +192,11 @@ profiles:
     # Charge line
       - { w: 228, h: 2 }
 
-  # TECNO POVA 4
-  - name: lg7n
+  # For devices with 720x1640 screens
+  - name: generic_720x1640_bgrabe
     color_model: bgrabe
+    alias:
+    - lg7n
     formats:
     # Full screen
       - { w: 720, h: 1640 }
